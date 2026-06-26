@@ -1,0 +1,14 @@
+includes:
+    - ./vendor/pestphp/pest/phpstan.neon
+    - ./phpstan-baseline.neon
+
+parameters:
+    phpVersion: 82
+    level: 5
+    paths:
+        - app
+        - tests
+    excludePaths:
+        - vendor/
+        - bootstrap/
+    checkGenericClassInNonGenericObjectType: false

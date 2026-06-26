@@ -1,0 +1,42 @@
+parameters:
+    level: 5
+    ignoreErrors:
+        -
+            message: "#^Undefined method 'get'\\.$#"
+            path: tests/Feature
+        -
+            message: "#^Undefined method 'post'\\.$#"
+            path: tests/Feature
+        -
+            message: "#^Undefined method 'put'\\.$#"
+            path: tests/Feature
+        -
+            message: "#^Undefined method 'patch'\\.$#"
+            path: tests/Feature
+        -
+            message: "#^Undefined method 'delete'\\.$#"
+            path: tests/Feature
+        -
+            message: "#^Undefined method 'actingAs'\\.$#"
+            path: tests/
+        -
+            message: "#^Undefined method 'assertDatabaseHas'\\.$#"
+            path: tests/
+        -
+            message: "#^Undefined method 'assertDatabaseCount'\\.$#"
+            path: tests/
+        -
+            message: "#^Undefined method 'assertDatabaseMissing'\\.$#"
+            path: tests/
+        -
+            message: "#^Undefined method 'assertDeleted'\\.$#"
+            path: tests/
+        -
+            message: "#^Undefined method 'assertModelMissing'\\.$#"
+            path: tests/
+        -
+            message: "#^Undefined method 'assertDatabaseEmpty'\\.$#"
+            path: tests/
+        -
+            message: "#^Undefined property '\\$user'\\.$#"
+            path: tests/
